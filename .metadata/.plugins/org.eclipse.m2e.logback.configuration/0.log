@@ -54,3 +54,11 @@ Caused by: java.net.ConnectException: Connect times out
 2014-08-21 00:07:38,740 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ATOM-cse\sat\src\main\resources
 2014-08-21 00:07:38,741 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2014-08-21 00:07:38,741 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ATOM-cse\sat\src\test\resources
+2014-08-21 00:18:33,822 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-21 00:18:33,822 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ATOM-cse\sat\src\main\resources
+2014-08-21 00:18:33,824 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-21 00:18:33,825 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ATOM-cse\sat\src\test\resources
+2014-08-21 00:20:22,513 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-21 00:20:22,513 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ATOM-cse\sat\src\main\resources
+2014-08-21 00:20:22,514 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2014-08-21 00:20:22,514 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ATOM-cse\sat\src\test\resources
