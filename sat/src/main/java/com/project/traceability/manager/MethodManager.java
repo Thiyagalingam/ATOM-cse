@@ -8,7 +8,6 @@ import java.util.Map.Entry;
 
 import com.project.traceability.model.ArtefactElement;
 import com.project.traceability.model.ArtefactSubElement;
-import com.project.traceability.model.AttributeModel;
 import com.project.traceability.model.MethodModel;
 import com.project.traceability.model.ParameterModel;
 import com.project.traceability.utils.Constants.ArtefactSubElementType;
@@ -81,6 +80,7 @@ public class MethodManager {
 										+ UMLArtefactElement.getName());
 							for(ArtefactSubElement model : UMLAttributeElements)
 								System.out.println(((MethodModel)model).getName());
+							System.out.println("sdnmdks");
 						}
 						
 						if (sourceAttributeElements.size() > 0) {
