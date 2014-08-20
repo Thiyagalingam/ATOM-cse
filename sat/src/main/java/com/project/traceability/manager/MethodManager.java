@@ -81,6 +81,7 @@ public class MethodManager {
 							for(ArtefactSubElement model : UMLAttributeElements)
 								System.out.println(((MethodModel)model).getName());
 							System.out.println("sdnmdks");
+							System.out.println("jgtkjgttj");
 						}
 						
 						if (sourceAttributeElements.size() > 0) {
