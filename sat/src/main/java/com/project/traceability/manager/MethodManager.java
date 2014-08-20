@@ -51,7 +51,7 @@ public class MethodManager {
 							if(UMLAttributeElements.get(i).getName().equalsIgnoreCase
 									(sourceAttributeElements.get(j).getName())){
 								if(((MethodModel)UMLAttributeElements.get(i)).getParameters() == null && 
-										((MethodModel)sourceAttributeElements.get(i)).getParameters() == null){
+										((MethodModel)sourceAttributeElements.get(j)).getParameters() == null){
 									relationNodes.add(UMLAttributeElements.get(i).getSubElementId());
 									relationNodes.add(sourceAttributeElements.get(j).getSubElementId());
 									UMLAttributeElements.remove(i);
@@ -64,7 +64,7 @@ public class MethodManager {
 									((MethodModel)sourceAttributeElements.get(j)).getParameters())){
 									relationNodes.add(UMLAttributeElements.get(i).getSubElementId());
 									relationNodes.add(sourceAttributeElements.get(j).getSubElementId());
-									UMLAttributeElements.remove(i);
+									UMLAttributeElements.remove(UMLAttributeElements.get(i));
 									i--;
 									sourceAttributeElements.remove(j);
 									j--;
