@@ -54,7 +54,7 @@ public class MethodManager {
 										((MethodModel)sourceAttributeElements.get(j)).getParameters() == null){
 									relationNodes.add(UMLAttributeElements.get(i).getSubElementId());
 									relationNodes.add(sourceAttributeElements.get(j).getSubElementId());
-									UMLAttributeElements.remove(i);
+									UMLAttributeElements.remove(i); 	//remove mapped objects
 									i--;
 									sourceAttributeElements.remove(j);
 									j--;
